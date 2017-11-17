@@ -20,3 +20,4 @@
 
 #Rubymine files
 .idea/
+.idea/*

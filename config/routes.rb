@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  # resources :links
+  resources :favorites
+  resources :links
   resources :categories
   resources :users
   devise_for :users
