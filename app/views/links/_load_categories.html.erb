@@ -1,0 +1,21 @@
+<div class="container-xs-4">
+  <h2>Link relacionados a la categoria <%= Category.find(params[:id]).name_category %></h2>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>Link</th>
+      <th>Description</th>
+      <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @links.each do |link| %>
+    <tr>
+      <td><%= link.link %></td>
+      <td><%= link.description %></td>
+      <td><%= link.user.email %></td>
+    </tr>
+    <% end %>
+   </tbody>
+  </table>
+</div>

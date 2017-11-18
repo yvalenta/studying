@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   root 'home#index'
 
   get '/category/:id', to: 'home#category', as: 'home_category'
+  get '/load_categories/:id', to: 'links#load_categories', as: 'links_load_categories'
+
   # get '/index/:id', to: 'home#category', as: 'home_category'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

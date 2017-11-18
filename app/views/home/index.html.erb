@@ -7,7 +7,7 @@
     <ul class="list-group">
       <% @categories.each do |category| %>
           <li class="list-group-item">
-            <%= link_to category.name_category, home_category_path(category), remote: true %>
+            <%= link_to category.name_category, links_load_categories_path(category), remote: true %>
           </li>
       <% end %>
     </ul>

@@ -65,6 +65,10 @@ class LinksController < ApplicationController
     end
   end
 
+  def load_categories
+    @links = Link.where(category_id: params[:id])
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_link
