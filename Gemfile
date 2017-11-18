@@ -26,12 +26,13 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-
-gem 'bootstrap-sass', '~> 3.2.0'
-
-gem 'autoprefixer-rails'
+#
+gem 'bootstrap-sass', '~> 3.3.7'
+# gem 'sass-rails', '>= 3.2'
 
 gem 'jquery-rails'
+
+gem 'pry'
 
 
 #gem 'twitter-bootstrap-rails', '~> 4.0'
