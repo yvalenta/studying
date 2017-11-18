@@ -5,8 +5,8 @@ class HomeController < ApplicationController
 
   def category
     @category = Category.find(params[:id])
-    respond_to do |format|
-      format.js  {@category}
-    end
+    # respond_to do |format|
+    #   format.js  {@category}
+    # end
   end
 end
